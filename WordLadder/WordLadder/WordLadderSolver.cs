@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WordLadder
 {
-	class WordLadderSolver
+	/// <summary>
+	/// provide solution for word ladder
+	/// </summary>
+	public class WordLadderSolver
 	{
 		/// <summary>
 		/// Word collection

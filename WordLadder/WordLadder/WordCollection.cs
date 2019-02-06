@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace WordLadder
 {
-	class WordCollection
+	/// <summary>
+	/// collection of words in dictionary
+	/// </summary>
+	public class WordCollection
 	{
 		/// <summary>
 		/// all words in dictionary

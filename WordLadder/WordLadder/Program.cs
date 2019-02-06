@@ -7,12 +7,16 @@ using System.Threading.Tasks;
 
 namespace WordLadder
 {
-	class Program
+	public class Program
 	{
 		static void Main(string[] args)
 		{
+			#region prepare
+
 			// collection of the words in the dictionary file
 			var wordCollection = new WordCollection($@"Data\dictionary.txt");
+
+			#endregion
 
 			#region input the start word and goal word
 
